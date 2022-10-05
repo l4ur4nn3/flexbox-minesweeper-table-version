@@ -1,6 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
 body {
     display: flex;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
     border: solid;
-    width: 50%;
+    width:fit-content;
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'VT323', monospace;
+}
+td, tr { 
+    width: 70px;
+    height: 70px;
+}
+.one, .two, .three, .empty {
+    border-right: dotted;
+    border-bottom: dotted;
+    padding: 5px;
+    border-color: black;
+}
+img {
+    width: 50px;
+}
+.one {
+    color: blue;
+}
+.two {
+    color: green;
+}
+.three {
+    color: red;
+}
+.hidden {
+    background-color: rgb(156, 156, 156);
+    border-style: solid;
+    border-left-color: white;
+    border-top-color: white;
+    border-right-color: black;
+    border-bottom-color: black;
+    color: rgba(255, 255, 255, 0);
+}
+.hidden:hover {
+    color: black;
+}
+table {
+    background-color: rgb(194, 194, 194);
+}
+.bomb {
+    border-bottom-style: dotted;
+    border-right-style: dotted;
 }
